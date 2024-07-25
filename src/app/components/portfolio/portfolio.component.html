@@ -1,4 +1,4 @@
-<section class="py-5">
+<section class="portfolio">
   <div class="d-flex justify-content-center align-items-center">
     <div class="content text-center">
       <h2 class="sectionName fw-bold">PORTFOLIO COMPONENT</h2>
@@ -13,7 +13,7 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative w-100">
+          <figure class="mb-0 position-relative w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img
               src="assets/port1.png"
               alt="Portfolio 1"
@@ -29,7 +29,7 @@
       </div>
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative">
+          <figure class="mb-0 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal2">
             <img
               src="assets/port2.png"
               alt="Portfolio 2"
@@ -45,7 +45,7 @@
       </div>
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative">
+          <figure class="mb-0 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal3">
             <img
               src="assets/port3.png"
               alt="Portfolio 3"
@@ -61,7 +61,7 @@
       </div>
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative">
+          <figure class="mb-0 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img
               src="assets/port1.png"
               alt="Portfolio 4"
@@ -77,7 +77,7 @@
       </div>
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative">
+          <figure class="mb-0 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal2">
             <img
               src="assets/port2.png"
               alt="Portfolio 5"
@@ -93,7 +93,7 @@
       </div>
       <div class="col-md-4">
         <div class="inner">
-          <figure class="mb-0 position-relative">
+          <figure class="mb-0 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal3">
             <img
               src="assets/port3.png"
               alt="Portfolio 6"
@@ -109,4 +109,37 @@
       </div>
     </div>
   </div>
+
+<!-- Modal -->
+<div class="modal fade bg-primary bg-opacity-25" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent">
+      <div class="modal-body p-0">
+        <img src="assets/port1.png" alt="portfolio" class="w-100">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bg-primary bg-opacity-25" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent">
+      <div class="modal-body p-0">
+        <img src="assets/port2.png" alt="portfolio" class="w-100">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bg-primary bg-opacity-25" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-transparent">
+      <div class="modal-body p-0">
+        <img src="assets/port3.png" alt="portfolio" class="w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div class="imgData fixed-top vh-100 vw-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center d-none">
+    <img src="assets/port1.png" alt="Portfolio 1" class="rounded-2" />
+  </div> -->
 </section>
