@@ -1,0 +1,23 @@
+<section class="recommendGallery mt-5">
+    <div class="d-flex justify-content-center align-items- pt-4" #showLazyData>
+        <div class="content text-center">
+            <h2 class="sectionName fw-bold">Recommended Gallery</h2>
+            <div class="d-flex justify-content-center align-items-center my-3">
+                <div class="line me-2"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line ms-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-4">
+            @for (item of listRecommededImages; track $index) {
+            <div class="col-md-4">
+                <div class="inner">
+                    <img [src]="item.src" alt="img {{$index+1}}" class="w-100 rounded-2" />
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
